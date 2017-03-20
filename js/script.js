@@ -293,7 +293,7 @@ $(document).ready(function() {
                 success: function(data) {
                     $(".Sucess").show();
                     $(".Sucess").fadeIn(2000);
-                    $(".Sucess").html("<i class='fa fa-check'></i> Dear <b>" + name + "</b> Thank you for your inquiry we will respond to you as soon as possible!");
+                    $(".Sucess").html("<i class='fa fa-check'></i> Dear <b>" + name + "</b> Thank you for your message I will respond to you as soon as possible!");
                     $("#Name").val("");
                     $("#Email").val("");
                     $("#Subject").val("");
